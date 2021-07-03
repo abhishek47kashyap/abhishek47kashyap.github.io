@@ -25,8 +25,6 @@ Interests
 
 Given how interdisciplinary robotics is and the various challenging and fun problems to be worked on, it's hard to stay locked in just one area. Wherever the action is happening, I want in!
 
-I'm also trying to get more active in contributing to open-source ROS packages. The robotics community has benefitted so much from ROS, time to give something back.
-
 Go ahead and check out my projects!
 
 
