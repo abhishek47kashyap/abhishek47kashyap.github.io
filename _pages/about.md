@@ -10,7 +10,7 @@ redirect_from:
 
 Hello, I'm a **robotics software engineer** based in Tokyo employed at [Molcure Inc.](https://molcure.com/), a bio-tech company that builds its own robots to automate experiments that can speed up drug-discovery experiments.
 
-My specific responsibilities include being the primary developer of the **Robot Operation System (ROS)** layer of the tech-stack and adding new features to the existing **firmware**.
+My specific responsibilities include being the primary developer of the **Robot Operating System (ROS)** layer of the tech-stack and adding new features to the existing **firmware**.
 
 I completed my **Master's in Robotics** from Worcester Polytechnic Institute in 2018 and shortly after moved to Japan.  
 
@@ -20,8 +20,8 @@ I'm always looking for opportunities to expand my robotics toolbox by working on
 
 Interests
 ------
-- Manipulation
-- Navigation
+- **Manipulation**: make a robot having arms perform activities intelligently
+- **Navigation**: help a robot move about in an environment with static/dynamic obstacles
 
 Given how interdisciplinary robotics is and the various challenging and fun problems to be worked on, it's hard to stay locked in just one area. Wherever the action is happening, I want in!
 
