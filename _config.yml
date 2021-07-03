@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Abhishek"
-  avatar           : "images/profile_pic_original_size.jpg"
+  avatar           : "profile_pic_original_size.jpg"
   bio              : "Robotics Engineer"
   location         : "Tokyo"
   employer         : "Molcure Inc."
