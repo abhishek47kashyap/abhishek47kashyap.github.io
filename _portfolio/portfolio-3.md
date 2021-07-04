@@ -4,7 +4,7 @@ excerpt: "Keeping top plate steady by rejecting disturbances to base <br/><img c
 collection: portfolio
 ---
 
-This was a semester project for the course Robot Controls when I was at WPI. The project was inspired by a well-known YouTube video of a self-levelling pool table on a cruise ship. Even though the floor that the pool table on is gently rocking, the pool *table top* is steady enough that the balls don't get displaced.
+This was a semester project for the course Robot Controls when I was at WPI. The project was inspired by a well-known YouTube video of a self-levelling pool table on a cruise ship. Even though the floor that the pool table is on is gently rocking, the pool *table top* is steady enough that the balls don't get displaced.
 
 [![self_levelling_pool_table](http://img.youtube.com/vi/N-aE5oszXyQ/0.jpg)](http://www.youtube.com/watch?v=N-aE5oszXyQ)
 
@@ -14,7 +14,7 @@ A traditional Stewart Platform has its base plate fixed while the top plate is m
 
 ![traditional_stewart_platform](https://upload.wikimedia.org/wikipedia/commons/a/a7/Hexapod_general_Anim.gif)
 
-How inverting the concept: **regardless of how the base plate moves, the top plate should be steady**. After all, that's how the self-levelling pool table looks like.
+How about inverting the concept: **regardless of how the base plate moves, the top plate should be steady**. After all, that's how the self-levelling pool table looks like.
 
 
 The work was done in simulation only (semester ended too quickly), using [MATLAB's Stewart Platform](https://www.mathworks.com/help/physmod/sm/ug/stewart-platform.html) as the testbed. We stripped off what we didn't need (as fancy the trident is, that had to go) and made modifications to the underlying controller. I had two wonderful teammates to work with.
@@ -40,7 +40,7 @@ And that's the problem we solved:
 
 ![top_plate_no_rotations](../../images/stewart_platform/top_plate_no_rotations.gif)
 
-Or did we? If this was a pool table, all balls would surely be rolling all over the table surface. However, think back to the requirement established previously: **almost-zero acceleration**. In the gif above extreme accelerations are used to prove the point that the top plate doesn't *roll* or *pitch*, no matter how the base plate moves. In reality, this would be happending in **super slow motion**.
+Or did we? If this was a pool table, all balls would surely be rolling all over the table surface. However, think back to the requirement established previously: **almost-zero acceleration**. In the gif above extreme accelerations are used to prove the point that the top plate doesn't *roll* or *pitch* despite disturbances to the base plate. In reality, this would be happending in **super slow motion**.
 
 ### Let's dive deeper ..
 
@@ -50,7 +50,7 @@ For this work, base plate disturbance was modelled as a sine wave:
 
 ![formula](https://render.githubusercontent.com/render/math?math=D(t) = 0.15sin(t))
 
-Amplitude was chosen as ![formula](https://render.githubusercontent.com/render/math?math=0.15) but the PID controller can handle any amplitude in the range ![formula](https://render.githubusercontent.com/render/math?math=[-0.25,0.25]). Frequency &omega; was set to ![formula](https://render.githubusercontent.com/render/math?math=1) rad/sec.
+Amplitude was chosen as ![formula](https://render.githubusercontent.com/render/math?math=0.15) but the PID controller can handle any amplitude in the range ![formula](https://render.githubusercontent.com/render/math?math=[-0.25,0.25]). Frequency &omega; was set to ![formula](https://render.githubusercontent.com/render/math?math=1) rad/sec. Amplitude influences how far the base plate tilts, whereas frequency determines how rapidly the base plate oscillates.
 
 To find out if *roll* and *pitch* were maintained at ![formula](https://render.githubusercontent.com/render/math?math=0), let's examine angular velocities of `top` with respect to <span style="color:DarkBlue"> `base` </span> and <span style="color:orange"> `world` </span>:
 
