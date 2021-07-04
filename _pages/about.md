@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I'm a **robotics software engineer** employed at [Molcure Inc.](https://molcure.com/), a bio-tech company that builds its own robots to automate experiments that can speed up drug-discovery experiments.
+Hello, I'm a **robotics software engineer** employed at [Molcure Inc.](https://molcure.com/), a bio-tech company that builds its own robots to automate experiments to speed up drug-discovery experiments.
 
 My specific responsibilities include being the primary developer of the **Robot Operating System (ROS)** layer of the tech-stack and adding new features to the existing **firmware**.
 
@@ -25,6 +25,6 @@ Interests
 
 Given how interdisciplinary robotics is and the various challenging and fun problems to be worked on, it's hard to stay locked in just one area. Wherever the action is happening, I want in!
 
-Go ahead and check out my projects!
+Go ahead and check out my [projects](/portfolio/)!
 
 
