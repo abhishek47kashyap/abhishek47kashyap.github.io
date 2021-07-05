@@ -12,7 +12,7 @@ Hello, I'm a **robotics software engineer** employed at [Molcure Inc.](https://m
 
 My specific responsibilities include being the primary developer of the **Robot Operating System (ROS)** layer of the tech-stack and adding new features to the existing **firmware**.
 
-I completed my **Master's in Robotics** from Worcester Polytechnic Institute in 2018 and shortly after moved to Japan.  
+I completed my **Master's in Robotics** from [Worcester Polytechnic Institute](https://www.wpi.edu) in 2018 and shortly after moved to Japan.  
 
 I'm always looking for opportunities to expand my robotics toolbox by working on a variety of engineering problems/requirements. Please feel free to reach out.
 
