@@ -6,7 +6,7 @@ collection: portfolio
 
 This work — which is still ongoing — is for the [navigation2_dynamic](https://github.com/ros-planning/navigation2_dynamic) project, a part of the bigger [Navigation2 stack](https://navigation.ros.org/). I'm specifically developing the obstacle **detector** which takes 2D LIDAR scans as input and outputs positions of obstacles in the neighborhood, and also classifies them into *line*- and *circle*-obstacles (a wall is obviously a line, a car would be better represented by a circle).
 
-This project is being led by [Steve Mackenski](https://www.linkedin.com/in/steve-macenski-41a985101/), the ROS Navigation Working Group Lead.
+This project is being led by [Steve Mackenski](https://www.steve.macenski.com/), the ROS Navigation Working Group Lead.
 
 ### Interested in seeing the code?
 Head over to my [fork](https://github.com/abhishek47kashyap/navigation2_dynamic) and go into the  package `detection_2d_lidar`.
