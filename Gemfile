@@ -15,6 +15,7 @@ gem "github-pages", group: :jekyll_plugins
 # To upgrade, run `bundle update`.
 
 # gem "jekyll"
+gem 'jekyll', "< 3.9.2"   # https://github.com/academicpages/academicpages.github.io/pull/944/files
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
