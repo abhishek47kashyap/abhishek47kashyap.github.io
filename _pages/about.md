@@ -10,7 +10,7 @@ redirect_from:
 
 Hello, I'm a **robotics software engineer** at [Telexistence Inc.](https://tx-inc.com/en/home/), a company that builds robots for restocking beverages at convenience stores. Last year in 2022, we started deploying robots at 300 FamilyMart stores ([press release](https://tx-inc.com/en/blog/2022/08/10/11737/)).
 
-I'm part of the Automation Team which works on **motion planning, computer vision, and system integration**. My specific responsibilities include:
+I'm part of the Automation Team that works on **motion planning, computer vision, and system integration**. My specific responsibilities include:
 - adding new and maintaining existing functionality of motion planning modules
 - providing support in integrating computer vision modules
 - creating and maintaining docs on software development and robot deployment in stores
