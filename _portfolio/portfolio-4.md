@@ -11,4 +11,10 @@ Objective: `screw` has to be screwed into the `nut` after placing `nut` on the `
 ---
 Here's my solution for difficulty level 2 at 10x speed:
 
-![screwing_onto_nut_10x](https://github.com/abhishek47kashyap/abhishek47kashyap.github.io/blob/master/images/vmc_icra_2023/screwing_onto_nut_10x.gif)
+<!-- ![screwing_onto_nut_10x](../../images/vmc_icra_2023/screwing_onto_nut_10x.gif) -->
+
+<img src="../../images/vmc_icra_2023/screwing_onto_nut_10x.gif" alt="screwing_onto_nut_10x" height="400" >
+
+<video src="https://github.com/abhishek47kashyap/abhishek47kashyap.github.io/blob/master/images/vmc_icra_2023/screwing_onto_nut_10x.mp4" controls="controls" style="max-width: 1000px;">
+</video>
+
