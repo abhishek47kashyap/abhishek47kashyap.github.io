@@ -1,6 +1,6 @@
 ---
 title: "Virtual Manipulation Challenge ICRA 2023"
-excerpt: "Keeping top plate steady by rejecting disturbances to base <br/><img src='/images/vmc_icra_2023/vmc_assembly.png' alt='vmc_assembly_competition_pic' style=\"width: 500px; height: auto;\">"
+excerpt: "Threading screw into nut <br/><img src='/images/vmc_icra_2023/vmc_assembly.png' alt='vmc_assembly_competition_pic' style=\"width: 500px; height: auto;\">"
 collection: portfolio
 ---
 
