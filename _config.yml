@@ -84,7 +84,7 @@ author:
   avatar           : "profile_pic_original_size.jpg"
   bio              : "Robotics Engineer"
   location         : "Tokyo"
-  employer         : "Molcure Inc."
+  employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
   email            : "abhishek47kashyap@gmail.com"
