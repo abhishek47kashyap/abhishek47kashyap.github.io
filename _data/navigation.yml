@@ -3,8 +3,11 @@ main:
 #   - title: "Publications"
 #    url: /publications/
 
+  - title: "CV"
+    url: https://abhishek47kashyap.github.io/files/CV.pdf
+
   - title: "Portfolio"
     url: /portfolio/
 
-  - title: "CV"
-    url: https://abhishek47kashyap.github.io/files/CV.pdf
+  - title: "Posts"
+    url: /posts/
